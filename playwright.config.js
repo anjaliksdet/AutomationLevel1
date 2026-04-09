@@ -20,11 +20,7 @@ export default defineConfig({
 
   },
 
-  reporter: [
-    ['line'],
-    ['allure-playwright']
-  ],
-  
+  reporter: 'html',
   use:{
 
     browserName : 'chromium',
